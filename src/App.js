@@ -1,12 +1,14 @@
-
-import './App.css';
+import React from "react";
+import "./App.css";
+import Buttons from "./components/Buttons";
 
 function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+  return <>
+  
+  
+  <Buttons />
+  
+  </>;
 }
 
 export default App;
