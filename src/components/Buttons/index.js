@@ -6,7 +6,12 @@ function buttonStyle(props) {
   const { numLabel } = props;
 
   const handleClick = () => {
-    console.log(numLabel);
+    // console.log(typeof numLabel);
+    
+    let numValue = Number(numLabel)
+    return console.log(numValue, typeof numValue)
+
+   
   };
   return (
     <button
@@ -23,6 +28,9 @@ function handleZero(props) {
 
   const handleClick = () => {
     console.log(numLabel);
+
+    let zeroValue = Number(numLabel)
+    return zeroValue
   };
   return (
     <button
