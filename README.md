@@ -1,7 +1,7 @@
 # Calculator
 
 ### Requirements to do list
-####Users should able to:
+#### Users should able to:
 
 - [ ] Press any number and have it appear on the display
 - [ ] conduct any multiplication, division, addition, and subtraction

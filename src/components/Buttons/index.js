@@ -2,14 +2,20 @@ import React from "react";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
 
+let numValue = 0;
+
+
+
 function buttonStyle(props) {
   const { numLabel } = props;
 
   const handleClick = () => {
-    // console.log(typeof numLabel);
     
     let numValue = Number(numLabel)
-    return console.log(numValue, typeof numValue)
+
+    console.log(numValue)
+
+    return numValue
 
    
   };
@@ -27,10 +33,13 @@ function handleZero(props) {
   const { numLabel } = props;
 
   const handleClick = () => {
-    console.log(numLabel);
 
     let zeroValue = Number(numLabel)
+
+    console.log(zeroValue)
+
     return zeroValue
+
   };
   return (
     <button
