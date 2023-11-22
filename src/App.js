@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Buttons from "./components/Buttons";
+import Calculator from "./components/Calculator";
 
 function App() {
   return <>
   
   
-  <Buttons />
+  <Calculator />
   
   </>;
 }
