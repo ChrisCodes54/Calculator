@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Calculator from "./components/Calculator/Calculator";
-import Button from "./components/Calculator/Button";
+import Calculator from "./components/Buttons/Calculator";
+import Button from "./components/Buttons/Button";
 
 function App() {
   return <>
   
-  <Button/>
+  {/* <Button/> */}
   <Calculator />
   
   </>;

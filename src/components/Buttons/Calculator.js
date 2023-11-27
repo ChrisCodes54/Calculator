@@ -1,5 +1,5 @@
 import React from "react";
-import Display from "./Display";
+// import Display from "./Display";
 import Button from './Button'
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -11,7 +11,7 @@ const buttons = [
   [0, ".", "="]
 ];
 
-const ops = new Set(["x", "-", "+"]);
+// const ops = new Set(["x", "-", "+"]);
 
 export default function Calculator() {
   // const [calculation, setCalculation] = useState("");
